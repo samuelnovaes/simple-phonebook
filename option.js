@@ -34,7 +34,7 @@ async function option(){
 			await option()
 			break
 		case 'exit':
-			await exit()
+			exit()
 			break
 		default:
 			console.log(chalk.red('Invalid command!'))
