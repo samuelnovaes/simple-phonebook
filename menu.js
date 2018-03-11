@@ -8,6 +8,7 @@ function menu(){
 		['delete', 'Delete contact'],
 		['edit', 'Edit contact'],
 		['list', 'List contacts'],
+		['search', 'Serach contacts'],
 		['menu', 'Show menu'],
 		['exit', 'Exit'],
 		['Ctrl + L', 'Clear screen']

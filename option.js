@@ -3,6 +3,7 @@ const add = require('./add.js')
 const remove = require('./remove.js')
 const update = require('./update.js')
 const list = require('./list.js')
+const search = require('./search.js')
 const menu = require('./menu.js')
 const exit = require('./exit.js')
 const chalk = require('chalk')
@@ -25,6 +26,9 @@ async function option(){
 			await update()
 			await option()
 			break
+		case 'search':
+			await search()
+			await option()
 		case 'list':
 			await list()
 			await option()
