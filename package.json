@@ -1,0 +1,27 @@
+{
+	"name": "simple-phonebook",
+	"version": "1.0.0",
+	"description": "Simple phonebook to use in the terminal",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [
+		"contact",
+		"phone",
+		"number",
+		"phonebook"
+	],
+	"author": "Samuel Novaes Sena <samuel.novaes.96@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^2.3.2",
+		"sequelize": "^4.35.5",
+		"sqlite3": "^3.1.13",
+		"table": "^4.0.3",
+		"validator": "^9.4.1"
+	},
+	"bin": {
+		"phonebook": "index.js"
+	}
+}
