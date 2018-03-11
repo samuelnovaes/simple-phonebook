@@ -23,5 +23,12 @@
 	},
 	"bin": {
 		"phonebook": "index.js"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/samuelnovaes/simple-phonebook.git"
+	},
+	"bugs": {
+		"url": "https://github.com/samuelnovaes/simple-phonebook/issues"
+	},
 }
