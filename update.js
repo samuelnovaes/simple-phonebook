@@ -10,6 +10,7 @@ async function update(){
 	console.log(chalk.yellow('To keep the value, let the field blank'))
 
 	let id = await question('ID: ')
+	if(validator.isEmpty(id) || !validator.isInt(id, {min: 1})) return console.log(chalk.red('Invalid ID!'))
 	let name = await question('Name: ')
 	let phone = await question('Phone: ')
 	if(!validator.isEmpty(phone) && !validator.isMobilePhone(phone, 'any')) return console.log(chalk.red('Invalid phone number!'))
